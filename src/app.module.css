@@ -1,0 +1,120 @@
+.contact_form {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: var(--background);
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 66px;
+  color: #000000;
+}
+
+p {
+  font-size: 18px;
+  line-height: 22px;
+  color: #4f4f4f;
+  font-family: var(--myriad);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 600px;
+}
+
+.group {
+  display: flex;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.input_group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  position: relative;
+}
+
+.input_group label {
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  font-family: var(--myriad);
+}
+
+.input_group input {
+  padding: 0.5rem;
+  font-size: 16px;
+  color: #828282;
+  border: 1px solid #828282;
+  border-radius: 8px;
+  outline: none;
+  background-color: var(--background);
+  font-family: var(--myriad);
+}
+
+.input_group input:focus {
+  border: 1px solid #4f4f4f;
+}
+
+.input_group textarea {
+  padding: 0.5rem;
+  height: 180px;
+  resize: none;
+  font-size: 16px;
+  color: #828282;
+  border: 1px solid #828282;
+  border-radius: 8px;
+  outline: none;
+  background-color: var(--background);
+  font-family: var(--myriad);
+}
+
+.input_group textarea:focus {
+  border: 1px solid #4f4f4f;
+}
+
+.error {
+  position: absolute;
+  bottom: -20px;
+  font-size: 12px;
+  line-height: 17px;
+  color: #ff0000;
+  font-family: var(--myriad);
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 6px;
+  font-size: 16px;
+  color: #000000;
+  line-height: 19px;
+  font-weight: 500;
+  cursor: pointer;
+  height: 52px;
+  border: none;
+  background: var(--button) !important;
+  font-family: var(--myriad);
+}
+
+.button:hover {
+  color: #ffffff;
+  background: #1a6605 !important;
+}
+
+.button:disabled {
+  color: #dddddd;
+  cursor: not-allowed;
+  background: gray !important;
+}

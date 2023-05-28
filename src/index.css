@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.cdnfonts.com/css/myriad-pro");
+@import url("https://fonts.cdnfonts.com/css/aktiv-grotesk-cd-trial");
+
+*:root {
+  --font-family: "DM Serif Display", serif;
+  --myriad: "Myriad Pro", sans-serif;
+  --aktiv: "Aktiv Grotesk Cd Trial", sans-serif;
+  --background: #eff8ec;
+  --main-color: #000000;
+  --text-color: #1a3855;
+  --button: #5eb546;
+  --button2: #084ca1;
+  --white: #ffffff;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  scroll-behavior: smooth;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+}
+
+body {
+  background: var(--background);
+  scroll-behavior: smooth;
+  height: 100%;
+  overflow: hidden;
+}
